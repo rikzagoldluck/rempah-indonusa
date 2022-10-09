@@ -33,13 +33,13 @@ function MyApp({ Component, pageProps }: AppProps) {
   function addProductJsonLD() {
     return {
       __html: `{
-        "@context": "https://192.168.43.235/",
+        "@context": "https://0.0.0.0/",
         "@type": "Product",
         "name": "Spice",
         "image": [
-          "https://192.168.43.235:3000/img/asam-kandis.png",
-          "https://192.168.43.235:3000/img/clove.png",
-          "https://192.168.43.235:3000/img/nutmeg.png"
+          "https://0.0.0.0/img/asam-kandis.png",
+          "https://0.0.0.0/img/clove.png",
+          "https://0.0.0.0/img/nutmeg.png"
          ],
         "description": "Rempah IndoNusa Offers various types of spices with the best quality and at the best prices in its class so that people get products with good quality and affordable prices." name="description",
         "sku": "0446310786",
@@ -67,7 +67,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://192.168.43.235/",
+          "url": "https://0.0.0.0/",
           "priceCurrency": "USD",
           "price": "119.99",
           "priceValidUntil": "2020-11-20",
@@ -89,7 +89,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:description" content="Rempah IndoNusa Offers various types of spices with the best quality and at the best prices in its class so that people get products with good quality and affordable prices." />
         <meta httpEquiv="Content-Language" content="en" />
         <meta content="Spice, Ingredients, Seasoning, Condiment" key="kwrds" name="keywords" />
-        <meta property="og:image" content="https://192.168.43.235:3000/img/logo.png" />
+        <meta property="og:image" content="https://0.0.0.0/img/logo.png" />
         {/* <!-- Favicons --> */}
         <link rel="icon" sizes="96x96" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="57x57" href="/fav/apple-icon-57x57.png" />
