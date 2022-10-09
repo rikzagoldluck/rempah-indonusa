@@ -21,6 +21,23 @@
     "react/maxlen": "off",
     "react/control-has-associated-label": "off",
     "react/anchor-has-content": "off",
-    "react/linebreak-style": "off"
+    "react/linebreak-style": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
   }
 }
