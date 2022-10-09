@@ -4,10 +4,10 @@ interface ConsumerItemProps {
   imgSrc: string;
   name: string;
   subject: string;
-  twitter: string;
-  fb: string;
-  ig: string;
-  linkedin: string;
+  twitter?: string;
+  fb?: string;
+  ig?: string;
+  linkedin?: string;
 }
 export default function ConsumerItem(props: ConsumerItemProps) {
   const { imgSrc = '', name = '', subject = '', twitter = '', fb = '', ig = '', linkedin = '' } = props;
