@@ -3,7 +3,7 @@ interface tabProps {
   to: string;
   classExt?: string;
 }
-export default function Tab(props: tabProps) {
+export default function Tab(props: Partial<tabProps>) {
   const { lbl = 'tab', to = '/#', classExt = '' } = props;
   return (
     <li className="nav-item">

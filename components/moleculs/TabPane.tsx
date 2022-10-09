@@ -3,14 +3,14 @@ import Image from 'next/image';
 interface TabPaneProps {
   id: string;
   lbl: string;
-  desc: string;
-  details: string;
-  classExt: string;
-  imgSrc: string;
-  imgWidth: number;
-  imgHeight: number;
+  desc?: string;
+  details?: string;
+  classExt?: string;
+  imgSrc?: string;
+  imgWidth?: number;
+  imgHeight?: number;
 }
-export default function TabPane(props: TabPaneProps) {
+export default function TabPane(props: Partial<TabPaneProps>) {
   const { id = 'tab-pane', lbl = 'tab-pane', classExt = '', imgSrc = '/img/products/asam-kandis.png', imgWidth = 300, imgHeight = 300, desc = 'description', details = 'details' } = props;
   return (
     <div className={`tab-pane ${classExt}`} id={id}>

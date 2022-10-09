@@ -12,6 +12,7 @@ export default function WhyUs() {
             <div className="box" data-aos="zoom-in" data-aos-delay="100">
               <span>01</span>
               <h4>Sustainability</h4>
+              {/* eslint-disable-next-line max-len */}
               <p>We support for society collaboration to empowering out farmers, government, and other communities</p>
             </div>
           </div>

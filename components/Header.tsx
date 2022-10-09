@@ -8,6 +8,7 @@ export default function Header() {
         {/* <!-- Uncomment below if you prefer to use an image logo --> */}
         <a href="/#hero" className="logo me-auto me-lg-0">
           {/* <img  /> */}
+          {/* eslint-disable-next-line max-len */}
           {/* <Image src="/img1/logo-min.png" alt="" width={64} height={64} className="img-fluid" /> */}
         </a>
 

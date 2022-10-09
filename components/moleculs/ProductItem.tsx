@@ -4,14 +4,14 @@ import { useEffect, useState } from 'react';
 interface ProductItemProps {
   lbl: string;
   desc: string;
-  imgSrc: string;
-  data: Array;
+  imgSrc?: string;
+  data?: string[];
 }
 
-export default function ProductItem(props: ProductItemProps) {
+export default function ProductItem(props: Partial<ProductItemProps>) {
   const { data = [], lbl, desc = 'Rempah terbaik', imgSrc = '/img/products/asam-kandis.png' } = props;
 
-  const [products, setProducts] = useState<[]>([]);
+  const [products, setProducts] = useState<string[]>([]);
 
   useEffect(() => {
     setProducts(data);

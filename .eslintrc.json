@@ -39,6 +39,12 @@
       "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
+    },
+    "import/extensions": {
+      "extensions": [".js", ".jsx", ".ts", ".tsx"]
+    },
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
     }
   }
 }

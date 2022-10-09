@@ -8,6 +8,7 @@ export default function Hero() {
               Welcome to <br />
               <span> Rempah IndoNusa</span>
             </h1>
+            {/* eslint-disable-next-line max-len */}
             <h2>The best choice for your business, let&apos;s supply our products to meet your needs</h2>
 
             <div className="btns">

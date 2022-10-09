@@ -25,6 +25,7 @@ export default function Contact() {
               <div className="address">
                 <i className="bi bi-geo-alt" />
                 <h4>Location:</h4>
+                {/* eslint-disable-next-line max-len */}
                 <p>Jl. Karet Jaya I Utara No. 7 A-C Zona Industri Karet, Cadas - Sepatan Tangerang 15520 Banten - INDONESIA</p>
               </div>
 
