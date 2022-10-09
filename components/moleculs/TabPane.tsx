@@ -5,11 +5,10 @@ interface TabPaneProps {
   lbl: string;
   desc: string;
   details: string;
-  classExt?: string;
-  imgSrc?: string;
-  imgAlt?: string;
-  imgWidth?: number;
-  imgHeight?: number;
+  classExt: string;
+  imgSrc: string;
+  imgWidth: number;
+  imgHeight: number;
 }
 export default function TabPane(props: TabPaneProps) {
   const { id = 'tab-pane', lbl = 'tab-pane', classExt = '', imgSrc = '/img/products/asam-kandis.png', imgWidth = 300, imgHeight = 300, desc = 'description', details = 'details' } = props;
