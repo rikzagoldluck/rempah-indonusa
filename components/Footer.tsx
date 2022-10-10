@@ -97,7 +97,7 @@ export default function Footer() {
         <div className="copyright">
           &copy; Copyright{' '}
           <strong>
-            <span>Rempah IndoNusa</span>
+            <span>IndoNusa Spices & Coco</span>
           </strong>
           . All Rights Reserved
         </div>
