@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="footer-info">
-                <h3>Rempah IndoNusa</h3>
+                <h3>IndoNusa Spices & Coco</h3>
                 <p>
                   Jl. Karet Jaya I Utara No. 7 A-C Zona Industri Karet,
                   <br />
@@ -29,9 +29,9 @@ export default function Footer() {
                   <a href="/#" className="instagram">
                     <i className="bx bxl-instagram" />
                   </a>
-                  <a href="/#" className="google-plus">
+                  {/* <a href="/#" className="google-plus">
                     <i className="bx bxl-skype" />
-                  </a>
+                  </a> */}
                   <a href="/#" className="linkedin">
                     <i className="bx bxl-linkedin" />
                   </a>
@@ -43,19 +43,19 @@ export default function Footer() {
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <i className="bx bx-chevron-right" /> <a href="/#">Home</a>
+                  <i className="bx bx-chevron-right" /> <a href="#hero">Home</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right" /> <a href="/#">About us</a>
+                  <i className="bx bx-chevron-right" /> <a href="#about">About us</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right" /> <a href="/#">Services</a>
+                  <i className="bx bx-chevron-right" /> <a href="#products">Products</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right" /> <a href="/#">Terms of service</a>
+                  <i className="bx bx-chevron-right" /> <a href="#partner">Partners</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right" /> <a href="/#">Privacy policy</a>
+                  <i className="bx bx-chevron-right" /> <a href="#faq">Frequently Asked Questions</a>
                 </li>
               </ul>
             </div>

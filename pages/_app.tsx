@@ -41,12 +41,12 @@ function MyApp({ Component, pageProps }: AppProps) {
           "https://0.0.0.0/img/clove.png",
           "https://0.0.0.0/img/nutmeg.png"
          ],
-        "description": "Rempah IndoNusa Offers various types of spices with the best quality and at the best prices in its class so that people get products with good quality and affordable prices." name="description",
+        "description": "IndoNusa Spices & Coco is an international trading company headquartered in Indonesia which is engaged in agricultural commodities. We work closely with experienced local farmers and factories to produce high quality and competitively priced products to benefit our good customers. To earn their valuable trust, we also strive to implement the best quality.",
         "sku": "0446310786",
         "mpn": "925872",
         "brand": {
           "@type": "Brand",
-          "name": "Rempah IndoNusa"
+          "name": "IndoNusa Spices & Coco"
         },
         "review": {
           "@type": "Review",
@@ -57,7 +57,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           },
           "author": {
             "@type": "Person",
-            "name": "Rempah IndoNusa"
+            "name": "IndoNusa Spices & Coco"
           }
         },
         "aggregateRating": {
@@ -83,8 +83,12 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <title>Spice - Rempah IndoNusa</title>
-        <meta content="Rempah IndoNusa Offers various types of spices with the best quality and at the best prices in its class so that people get products with good quality and affordable prices." name="description" key="desc" />
+        <title>IndoNusa Spices & Coco - Offers various types of spices with the best quality</title>
+        <meta
+          content="IndoNusa Spices & Coco is an international trading company headquartered in Indonesia which is engaged in agricultural commodities. We work closely with experienced local farmers and factories to produce high quality and competitively priced products to benefit our good customers. To earn their valuable trust, we also strive to implement the best quality."
+          name="description"
+          key="desc"
+        />
         <meta property="og:title" content="Spice, Ingredients, Seasoning, Condiment" />
         <meta property="og:description" content="Rempah IndoNusa Offers various types of spices with the best quality and at the best prices in its class so that people get products with good quality and affordable prices." />
         <meta httpEquiv="Content-Language" content="en" />

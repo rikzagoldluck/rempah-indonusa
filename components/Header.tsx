@@ -2,15 +2,19 @@ export default function Header() {
   return (
     <header id="header" className="fixed-top d-flex align-items-center">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
-        <h1 className="logo me-auto me-lg-0">
-          <a href="/#hero">Rempah IndoNusa</a>
-        </h1>
-        {/* <!-- Uncomment below if you prefer to use an image logo --> */}
-        <a href="/#hero" className="logo me-auto me-lg-0">
-          {/* <img  /> */}
-          {/* eslint-disable-next-line max-len */}
-          {/* <Image src="/img1/logo-min.png" alt="" width={64} height={64} className="img-fluid" /> */}
+        <a className="navbar-brand" href="/#">
+          <img src="/img/logo_header.png" alt="" className="d-inline-block align-text-top img-fluid logo" />
         </a>
+
+        {/* <h1 className="logo me-auto me-lg-0">
+          <a href="/#hero">IndoNusa Spices & Coco</a>
+        </h1> */}
+        {/* <!-- Uncomment below if you prefer to use an image logo --> */}
+        {/* <a href="/#hero" className="logo me-auto me-lg-0"> */}
+        {/* <img  /> */}
+        {/* eslint-disable-next-line max-len */}
+        {/* <Image src="/img1/logo-min.png" alt="" width={64} height={64} className="img-fluid" /> */}
+        {/* </a> */}
 
         <nav id="navbar" className="navbar order-last order-lg-0">
           <ul>
@@ -25,16 +29,11 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#specials">
-                Specials
-              </a>
-            </li>
-            <li>
               <a className="nav-link scrollto" href="#products">
                 Products
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="nav-link scrollto" href="#partner">
                 Partners
               </a>
@@ -43,7 +42,7 @@ export default function Header() {
               <a className="nav-link scrollto" href="#gallery">
                 Gallery
               </a>
-            </li>
+            </li> */}
             <li>
               <a className="nav-link scrollto" href="#faq">
                 FAQ
@@ -99,7 +98,7 @@ export default function Header() {
           <i className="bi bi-list mobile-nav-toggle" />
         </nav>
         {/* <!-- .navbar --> */}
-        <a href="https://wa.me/+6287872561311" className="book-a-table-btn d-none d-lg-flex">
+        <a href="https://wa.me/+6287872561311" target="_blank" className="book-a-table-btn d-none d-lg-flex" rel="noreferrer">
           Order
         </a>
       </div>

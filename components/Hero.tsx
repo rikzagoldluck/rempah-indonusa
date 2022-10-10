@@ -6,16 +6,16 @@ export default function Hero() {
           <div className="col-lg-8">
             <h1>
               Welcome to <br />
-              <span> Rempah IndoNusa</span>
+              <span> IndoNusa Spices & Coco</span>
             </h1>
             {/* eslint-disable-next-line max-len */}
             <h2>The best choice for your business, let&apos;s supply our products to meet your needs</h2>
 
             <div className="btns">
-              <a href="#events" className="btn-menu animated fadeInUp scrollto">
+              <a href="#products" className="btn-menu animated fadeInUp scrollto">
                 Our Product
               </a>
-              <a href="https://wa.me/+6287872561311" className="btn-book animated fadeInUp">
+              <a href="https://wa.me/+6287872561311" target="_blank" className="btn-book animated fadeInUp" rel="noreferrer">
                 Order Now
               </a>
             </div>

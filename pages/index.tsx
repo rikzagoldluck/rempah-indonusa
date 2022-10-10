@@ -25,11 +25,11 @@ export default function Home() {
       <main id="main">
         <About />
         <WhyUs />
-        <Specials />
+        {/* <Specials /> */}
         <Products />
         <FAQ />
-        <Gallery />
-        <Consumer />
+        {/* <Gallery />
+        <Consumer /> */}
         <Contact />
       </main>
       <Footer />

@@ -7,16 +7,16 @@ export default function About() {
         <div className="row">
           <div className="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <div className="about-img">
-              <Image style={{ border: '4px solid rgba(255, 255, 255, 0.2)' }} src="/img/about.jpeg" alt="Hasil Panen" width="100%" height="75%" layout="responsive" />
+              <Image style={{ border: '4px solid rgba(255, 255, 255, 0.2)' }} src="/img/about.jpg" alt="Hasil Panen" width="100%" height="75%" layout="responsive" />
             </div>
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>RempahIndonusa is an trading company under CV. RempahIndonusa</h3>
-            <p className="fst-italic ">
-              Established in the year of 2021 We are engaging in spices product. We are cooperate closely with local experienced farmers and factory to produce high quality products and a competitive prices to benefit our good customer.
-            </p>
+            <h3>Halo! We are IndoNusa Spices & Coco</h3>
+            <p className="fst-italic ">IndoNusa Spices & Coco is an international trading company headquartered in Indonesia which is engaged in agricultural commodities.</p>
 
-            <p>In order to continue to earn their valued trust, we are also strive to implement stringent quality controls and ideal sustainability.</p>
+            <p>
+              We work closely with experienced local farmers and factories to produce high quality and competitively priced products to benefit our good customers. To earn their valuable trust, we also strive to implement the best quality.
+            </p>
             <div className="row mt-5">
               <div className="col-lg-6 mb-3">
                 <h4 className="fw-bold">Our Vision</h4>
