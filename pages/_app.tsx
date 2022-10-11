@@ -124,6 +124,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Script strategy="beforeInteractive" src="/vendor/php-email-form/validate.js" />
       <Script strategy="beforeInteractive" src="/vendor/swiper/swiper-bundle.min.js" />
       <Script strategy="afterInteractive" src="/js/main.js" />
+      <Script strategy="afterInteractive" src="/js/form.js" />
       <Component {...pageProps} />;
     </>
   );

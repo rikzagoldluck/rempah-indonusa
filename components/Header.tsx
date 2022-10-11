@@ -1,9 +1,11 @@
+import Image from 'next/image';
+
 export default function Header() {
   return (
     <header id="header" className="fixed-top d-flex align-items-center">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
-        <a className="navbar-brand" href="/#">
-          <img src="/img/logo_header.png" alt="" className="d-inline-block align-text-top img-fluid logo" />
+        <a className="logo me-auto" href="/#">
+          <Image src="/img/logo_header.png" alt="indo nusa" className="img-fluid" width={500} height={150} />
         </a>
 
         {/* <h1 className="logo me-auto me-lg-0">
@@ -16,7 +18,7 @@ export default function Header() {
         {/* <Image src="/img1/logo-min.png" alt="" width={64} height={64} className="img-fluid" /> */}
         {/* </a> */}
 
-        <nav id="navbar" className="navbar order-last order-lg-0">
+        <nav id="navbar" className="navbar order-last order-lg-0 me-lg-5">
           <ul>
             <li>
               <a className="nav-link scrollto active" href="#hero">

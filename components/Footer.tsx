@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer id="footer">
@@ -6,7 +8,10 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="footer-info">
-                <h3>IndoNusa Spices & Coco</h3>
+                {/* <h3>IndoNusa Spices & Coco</h3> */}
+                {/* <a className="logo me-auto" href="/#"> */}
+                <Image src="/img/logo_header.png" alt="" className="mb-3 img-fluid" width={274} height={86} />
+                {/* </a> */}
                 <p>
                   Jl. Karet Jaya I Utara No. 7 A-C Zona Industri Karet,
                   <br />
